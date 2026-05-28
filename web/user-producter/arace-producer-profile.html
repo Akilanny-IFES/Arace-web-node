@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
   <script src="https://unpkg.com/lucide@latest"></script>
-  <link href="../assets/style/profile.css" rel="stylesheet" />
+  <link href="../assets/style/perfil.css" rel="stylesheet" />
 </head>
 <body>
 
@@ -35,7 +35,72 @@
   </aside>
 
   <main>
-    <!-- conteúdo de Perfil Produtor aqui -->
+    <!-- Stats -->
+    <div class="stats-row item-animado atraso-1">
+      <div class="stat-card">
+        <div class="stat-label">Vendas realizadas</div>
+        <div class="stat-value">120</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Produtos para entrega</div>
+        <div class="stat-value">10</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Pendentes</div>
+        <div class="stat-value">5</div>
+      </div>
+    </div>
+
+    <!-- Profile Card -->
+    <div class="profile-card item-animado atraso-2">
+      <div class="profile-header">
+        <div class="avatar-wrap">
+          <div class="avatar"><i data-lucide="user"></i></div>
+          </div>
+        </div>
+        <div class="profile-meta">
+          <div class="profile-name">Usuário</div>
+          <div class="profile-email">usuario@gmail.com</div>
+        </div>
+        <a href="arace-producer-config.html">
+        <button class="btn-edit">
+          <i data-lucide="pencil"></i> Editar perfil
+        </button>
+      </a>
+      </div>
+
+      <div class="fields">
+        <div class="field">
+          <div class="field-label">Nome</div>
+          <div class="field-value">Usuário</div>
+        </div>
+        <div class="field">
+          <div class="field-label">E-mail</div>
+          <div class="field-value">usuario@gmail.com</div>
+        </div>
+        <div class="field">
+          <div class="field-label">Número</div>
+          <div class="field-value missing">
+            <i data-lucide="alert-circle"></i> Não informado
+          </div>
+        </div>
+        <div class="field">
+          <div class="field-label">Localização</div>
+          <div class="field-value">Cariacica – ES</div>
+        </div>
+        <div class="field">
+          <div class="field-label">Membro desde</div>
+          <div class="field-value">Janeiro de 2024</div>
+        </div>
+        <div class="field">
+          <div class="field-label">CPF</div>
+          <div class="field-value missing">
+            <i data-lucide="alert-circle"></i> Não informado
+          </div>
+        </div>
+      </div>
+    </div>
+
   </main>
 
   <script>lucide.createIcons();</script>

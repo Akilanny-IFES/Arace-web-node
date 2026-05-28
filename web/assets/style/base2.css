@@ -1,4 +1,4 @@
-/* ── BASE ARACÊ — user (sidebar layout) ── */
+
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
@@ -16,7 +16,7 @@
   --muted:      #6b6b66;
   --faint:      #a0a09a;
   --r:          10px;
-  --r-lg:       16px;
+  --r-lg:       8px;
   --sh-sm:      0 2px 8px rgba(37,81,143,.07);
   --sh-md:      0 6px 24px rgba(37,81,143,.14);
   --display:    'Playfair Display', serif;
