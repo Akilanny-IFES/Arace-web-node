@@ -7,15 +7,15 @@ Este projeto é a (Frontend) da plataforma web de Arace. O projeto consiste em u
 ## 🛠️ Tecnologias Utilizadas
 
 * **HTML5:** Estruturação semântica das páginas.
-* **CSS3:** Estilização avançada utilizando variáveis para paleta de cores.
-* **JavaScript (ES6+):** Lógica de navegação, carrosséis e manipulação de DOM para dados dinâmicos.
+* **CSS3:** Estilização utilizando variáveis para paleta de cores.
+* **JavaScript (ES6+):** Lógica de navegação.
 
 ## 📂 Estrutura de Páginas
 
 A navegação centralizada em `arace-config.html` conecta as seguintes áreas:
 
 * **Home:** Visão geral do sistema.
-* **Produtos:** Vitrine de itens com layout de grade (gap de 40px).
+* **Produtos:** Vitrine de itens .
 * **Perfil & Configuração:** Gerenciamento de conta do usuário.
 * **Favoritos & Notificações:** Interações de interesse.
 * **Carrinho:** Fluxo de compra.
