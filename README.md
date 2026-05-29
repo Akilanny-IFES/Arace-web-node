@@ -1,4 +1,6 @@
 # Índice
+
+![Status](https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-green)
 - [Descrição do Projeto](#descrição-do-projeto)
 - [Status do Projeto](#status-do-projeto)
 - [Funcionalidades](#funcionalidades)
