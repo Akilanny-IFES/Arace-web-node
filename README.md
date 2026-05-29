@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-green)
 
-Este projeto consiste na interface frontal (Frontend) da plataforma Arace. O projeto consiste em um market place cultural localmente capixaba. Esse projeto está sendo desenvolvido para a matéria de Projeto Integrador do módulo de informática 2023/2 IFES SERRA
+Este projeto é a (Frontend) da plataforma web de Arace. O projeto consiste em um market place cultural localmente capixaba. Esse projeto está sendo desenvolvido para a matéria de Projeto Integrador do módulo de informática 2023/2 IFES SERRA
 
 ## 🛠️ Tecnologias Utilizadas
 
