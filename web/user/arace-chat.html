@@ -12,18 +12,33 @@
 </head>
 <body>
 
-  <header>
-    <span class="logo">aracê</span>
-    <div class="header-right">
-      <button class="cart-btn"><i data-lucide="shopping-cart"></i><span class="cart-count">2 itens</span></button>
-      <button class="cart-btn"><i data-lucide="heart"></i><span class="cart-count">5 itens</span></button>
-      <div class="avatar-btn"><i data-lucide="user"></i></div>
-    </div>
-  </header>
+  <!-- HEADER -->
+<header>
+  <a href="../main/index.html" class="logo">aracê</a>
+
+  <form class="search-wrap" action="../main/arace-search.html" method="get">
+    <i data-lucide="search"></i>
+    <input type="text" name="q" id="searchHeaderInput" placeholder="Pesquisar produtos..." />
+  </form>
+
+  <div class="header-right">
+    <button class="cart-btn" type="button" onclick="window.location.href='../main/carrinho.html'">
+      <i data-lucide="shopping-cart"></i>
+      <span class="cart-count">2 itens</span>
+    </button>
+    <button class="cart-btn" type="button" onclick="window.location.href='../user/favoritos.html'">
+      <i data-lucide="heart"></i>
+      <span class="cart-count">5 itens</span>
+    </button>
+    <button class="avatar-btn" type="button" onclick="window.location.href='../user/perfil.html'">
+      <i data-lucide="user"></i>
+    </button>
+  </div>
+</header>
 
   <aside>
     <a class="nav-item" href="../main/index.html"><i data-lucide="house"></i> Home page</a>
-    <a class="nav-item" href="../main/produtos.html"><i data-lucide="shopping-bag"></i> Produtos</a>
+    <a class="nav-item" href="../main/arace-search.html"><i data-lucide="shopping-bag"></i> Produtos</a>
     <a class="nav-item" href="../main/carrinho.html"><i data-lucide="shopping-cart"></i> Carrinho</a>
     <a class="nav-item" href="./notificacoes.html"><i data-lucide="bell"></i> Notificações</a>
     <a class="nav-item" href="../main/configuracoes.html"><i data-lucide="settings"></i> Configurações</a>
@@ -34,9 +49,25 @@
     <a class="nav-item active" href="arace-chat.html"><i data-lucide="message-circle"></i> Chat</a>
   </aside>
 
-  <main>
-    <!-- conteúdo do chat aqui -->
-  </main>
+<main>
+    <section class="chat item-animado">
+        <div class="chat__messages">
+            <div class="message--other">
+                <span class="message--sender" style="color: var(--azul)">Sistema</span>
+                Bem-vindo ao chat Aracê! Conectando ao servidor...
+            </div>
+        </div>
+
+        <form class="chat__form">
+            <input type="text" class="chat__input" placeholder="Digite uma mensagem..." required />
+            <button type="submit" class="chat__button">
+                <i data-lucide="send"></i>
+            </button>
+        </form>
+    </section>
+</main>
+
+    <script src="../assets/js/chat.js"></script>
 
   <script>lucide.createIcons();</script>
 </body>

@@ -14,16 +14,15 @@
 </head>
 <body>
 
+<!-- HEADER -->
 <header>
-  <a href="index.html" aria-label="Ir para a pagina inicial">
-  <span class="logo">aracê</span>
+  <a href="index.html" class="logo">aracê</a>
 
-  </a>
-
-  <form class="search-wrap js-search-form" action="arace-search.html" method="get">
+  <form class="search-wrap" action="arace-search.html" method="get">
     <i data-lucide="search"></i>
-    <input type="text" placeholder="Pesquisar produtos..." id="searchInput" name="q"/>
+    <input type="text" name="q" id="searchHeaderInput" placeholder="Pesquisar produtos..." />
   </form>
+
   <div class="header-right">
     <button class="cart-btn" type="button" onclick="window.location.href='carrinho.html'">
       <i data-lucide="shopping-cart"></i>
@@ -33,12 +32,11 @@
       <i data-lucide="heart"></i>
       <span class="cart-count">5 itens</span>
     </button>
-    <button class="avatar-btn" type="button" onclick="window.location.href='../user/perfil.html'" aria-label="Abrir perfil">
+    <button class="avatar-btn" type="button" onclick="window.location.href='../user/perfil.html'">
       <i data-lucide="user"></i>
     </button>
   </div>
 </header>
-
 <!-- HERO -->
 <section class="hero">
   <div class="hero-slides">
